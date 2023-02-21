@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>60</y>
+      <w>240</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Mobiilipeli
+--
+
+--
++ alkuvalikko(a: Alkuvalikko)
++ lopetusruutu(ruutu: Lopetusruutu,
+voitto: boolean)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>20</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Alkuvalikko
+--
+- valittuPelikenttä: Pelikenttä
+--
++ valitsePelikenttä()
++ aloitaPeli()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>480</y>
+      <w>260</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Pelaaja
+--
+- perusnopeus: float
+- lisänopeus: float
+- nykynopeus: float
+- suojakenttä: boolean
+- supervoiman_aika: int
+--
++ kerääRoska(roska: Roska)
++ asetaSupervoima(voima: Supervoima)
++ pelaajanKontrollit()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>510</y>
+      <w>210</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Roskaaja
+--
+- nopeus: float
+--
++ levitäRoskaa()
++ tekoälyKontrollit()
++ tuhoa()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>670</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Supervoima
+--
+- lisävauhti: boolean
+- suojakilpi: boolean
+--
++ tuhoa()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>100</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Lopetusruutu
+--
+- voitto: boolean
+--
++ lopetaPeli()
++ aloitaAlusta()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>430</y>
+      <w>50</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>430</y>
+      <w>50</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>670</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Roska
+--
+
+--
++ luo()
++ tuhoa()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>490</x>
+      <y>430</y>
+      <w>50</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=1..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;240.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>350</x>
+      <y>220</y>
+      <w>210</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Pelikenttä
+--
+- pelin_kesto: int
+- pelaaja: Pelaaja
+- roskaajien_määrä: int
+- roskaajat: Roskaaja
+- roskien_määrä_alussa: int
+- max_roskien_määrä: int
+- roskien_määrä: int
+- roskat: Roska
+- supervoimien_määrä: int
+- voimat: Supervoimat
+--
++ luoPelikenttä()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>280</x>
+      <y>100</y>
+      <w>90</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>70.0;30.0;10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>110</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>160</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>100</y>
+      <w>190</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m2=1..5</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0;170.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>430</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+</diagram>
