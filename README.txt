@@ -1,3 +1,5 @@
+This repository contains work done by Joakim Kaseva. The code is for LUT's Object oriented programming -course, spring of 2023.
+
 IDE VSCode
 
 If issues:
