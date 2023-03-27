@@ -1,0 +1,1 @@
+RekisteriOhjelma-folder contains the project from Android Studio. The MKV video has a demo of how the app works. Same demo is in youtube: https://youtu.be/hsaP1UC945I
