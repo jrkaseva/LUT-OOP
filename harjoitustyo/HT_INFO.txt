@@ -1,0 +1,11 @@
+LUT HT:
+
+Palautukseen infot:
+
+A) Ketkä tämän palautuksen tekivät (nimi, opnu, sähköpostiosoite)
+B) Mistä lähdekoodi- ja dokumenttirepository löytyy
+C) Mistä työn esittelyvideo löytyy
+
+Joakim Kaseva, 001107355, joakim.r.kaseva@student.jyu.fi
+Github.com/~~~~~~
+youtube.com/~~~~~~

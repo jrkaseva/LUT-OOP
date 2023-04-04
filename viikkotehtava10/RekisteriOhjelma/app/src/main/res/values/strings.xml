@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">rekisteri</string>
+    <string name="etunimi">Etunimi</string>
+    <string name="sukunimi">Sukunimi</string>
+    <string name="s_hk_postiosoite">Sähköpostiosoite</string>
+    <string name="tietotekniikka">Tietotekniikka</string>
+    <string name="tuotantotalous">Tuotantotalous</string>
+    <string name="laskennallinen_tekniikka">Laskennallinen tekniikka</string>
+    <string name="s_hk_tekniikka">Sähkötekniikka</string>
+    <string name="lis_k_ytt_j">Lisää käyttäjä</string>
+    <string name="k_ytt_j_t">Käyttäjät</string>
+    <string name="title_activity_user_view">user_view</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string-array name="images">
+        <item>Kuva 1</item>
+        <item>Kuva 2</item>
+        <item>Kuva 3</item>
+    </string-array>
+    <string name="textview">TextView</string>
+    <string name="poista">POISTA</string>
+    <string name="n_yt_k_ytt_j_t">Näytä käyttäjät</string>
+</resources>
