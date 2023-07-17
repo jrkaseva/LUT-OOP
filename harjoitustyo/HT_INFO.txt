@@ -1,11 +1,16 @@
-LUT HT:
+A)Tekijät:
+Joakim Kaseva (001107355), Joakim.Kaseva@student.lut.fi
+Juho Kettunen (0541135), Juho.V.Kettunen@student.lut.fi
+Kimmo Kulmala (001094918), kimmo.kulmala@gmail.com
 
-Palautukseen infot:
+B)Esittelyvideo
+https://youtu.be/6mPYv6ULfhY
 
-A) Ketkä tämän palautuksen tekivät (nimi, opnu, sähköpostiosoite)
-B) Mistä lähdekoodi- ja dokumenttirepository löytyy
-C) Mistä työn esittelyvideo löytyy
+C)Repo:
+https://github.com/jrkaseva/LUT-Harjoitustyo
 
-Joakim Kaseva, 001107355, joakim.r.kaseva@student.jyu.fi
-Github.com/~~~~~~
-youtube.com/~~~~~~
+Tarkemmin dokumentaatio:
+https://github.com/jrkaseva/LUT-Harjoitustyo/tree/main/HarjoitusTyo/palautus
+
+Tarkemmin lähdekoodi:
+https://github.com/jrkaseva/LUT-Harjoitustyo/tree/main/HarjoitusTyo/app/src/main/java/com/example/lutemongame
